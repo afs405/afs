@@ -3,7 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ahmad Saqib Website</title>
+    <title>base</title>
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
   </head>
-  <body></body>
+  <body>
+    <div class="content">
+      <header>
+        <nav>
+          <ul>
+            <a href="{{ url_for('home') }}">Home</a>
+            <a href="{{ url_for('projects') }}">Projects</a>
+            <a href="{{ url_for('contact') }}">Contact</a>
+            <a href="{{ url_for('experience') }}">Experience</a>
+          </ul>
+        </nav>
+        <h1 id="name">Ahmad Faisal Saqib</h1>
+      </header>
+      
+
+      <main class="main" id="selfExplain">
+        <p id="mainText">
+          I'm an experienced front-end developer with a strong track record of
+          creating dynamic web and mobile applications using a wide range of
+          frameworks and JavaScript libraries. Over the past two years, I've
+          honed my skills in JavaScript, HTML, CSS, React, WebGL, and Unity3D,
+          consistently delivering high-quality, scalable, and user-friendly
+          solutions. <br />
+         <h4>What Sets Me Apart </h4> <h4>Diverse Skill Set:</h4> <br> My proficiency spans across
+          various front-end technologies, allowing me to tackle projects with a
+          versatile and comprehensive approach.
+          <br> <h4>Quick Learner:</h4> <br>I have a
+          demonstrated ability to rapidly adapt to new technologies, making me
+          an asset in fast-paced development environments. <br><h4>WebGL Expertise:</h4> <br>  I
+          have made significant contributions to several WebGL projects,
+          showcasing my expertise in creating immersive and interactive web
+          experiences. I'm passionate about pushing the boundaries of web
+          development and am always eager to take on challenging and rewarding
+          opportunities that allow me to continue growing as a programmer and
+          make a positive impact. Let's collaborate and create something
+          extraordinary.
+        </p>
+        <div id="imgBox">
+          <img   src="https://images.pexels.com/photos/102100/pexels-photo-102100.jpeg?auto=compress&cs=tinysrgb&w=300" alt="image if Typewriter"> 
+          <img src="https://images.pexels.com/photos/4065622/pexels-photo-4065622.jpeg?auto=compress&cs=tinysrgb&w=300" alt="image if worker">
+          <img src="https://images.pexels.com/photos/942317/pexels-photo-942317.jpeg?auto=compress&cs=tinysrgb&w=300" alt="this must be the place">
+        </div>
+      </main>
+      <section class="section">
+        Programming languages
+        <ul>
+          <li>Javascript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Python</li>
+          <li>React</li>
+          <li>MySql</li>
+          <li>Unity3D</li>
+          <li>WebGL</li>
+        </ul>
+      </section>
+      <aside class="aside"></aside>
+      <footer class="footer"></footer>
+    </div>
+   
+  </body>
 </html>

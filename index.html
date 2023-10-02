@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>base</title>
-
+<script src="portfolio.js"></script>
 <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -15,8 +15,8 @@
       </header>
       
 
-      <main class="main" id="selfExplain">
-        <p id="mainText">
+      <main class="main" >
+        <div id="selfExplain">        <p >
           I'm an experienced front-end developer with a strong track record of
           creating dynamic web and mobile applications using a wide range of
           frameworks and JavaScript libraries. Over the past two years, I've
@@ -36,7 +36,8 @@
           opportunities that allow me to continue growing as a programmer and
           make a positive impact. Let's collaborate and create something
           extraordinary.
-        </p>
+        </p></div>
+
         <section class="work-experience">
           <div class="job">
             <h3>Experience</h3>
@@ -103,7 +104,8 @@
                 When the user enters a task and presses Enter or clicks the Plus button, a new task is added to the list.
                 Each task is accompanied by a "Delete" button, allowing users to remove tasks they've completed.
                 The app also uses local storage to persist tasks, ensuring that they are not lost when the page is refreshed.</p></li>
-                <a href="https://github.com/afs405/TodoApp">To Do App</a>
+                <div class="toDo"><a href="https://github.com/afs405/TodoApp">Click To Experience the To Do App</a></div>
+
               </ol>
               <h4>FilmFlix</h4>
               <h4>Created September 2023 Just it Bootcamp</h4>
@@ -113,11 +115,29 @@
               <li><h4>Python</h4><p>FilmFlix features a menu-driven interface that enables users to add, delete, update, and generate reports on films, facilitating efficient management of film data in an SQLite database and providing insights into their film collection.</p></li>
               <li><h4>Database Interaction</h4>
               <p>The project interacts with an SQLite database, allowing users to store, retrieve, and manage film data efficiently</p></li>
+              <div class='filmFlex'>
+                <a href="https://replit.com/@ahmadFaisal48/Flim-Flix">Click To Experience the Film Flix App</a>
+              </div>
               </ul>
               </div>
             
          </section>
-         
+         <div id="contactInfo">
+          <fieldset>
+            <h3>
+              Please send me a message and ill get back to you as soon as possible
+            </h3>
+            <legend>Please Fill The Form</legend>
+            <label for="FName">Full Name </label><br />
+            <input type="text" name="" id="FName" /><br />
+            <label for="email">Please Enter you email </label>
+            <input type="text" name="" id="email" /><br />
+            <label for="message">Please Enter your message </label><br />
+            <textarea name="" id="message" cols="30" rows="20"></textarea>
+            <label for="submit"></label>
+            <input type="submit" />
+          </fieldset>
+        </div>
       </main>
 
       <section class="section">
@@ -133,7 +153,7 @@
           <li>WebGL</li>
         </ul>
         <section>
-          <div class="job">
+          <div class="edu">
             <h3>Further Education</h3>
             <p><a href="justit.co.uk"> Just it Bootcamp</a> Just it Bootcamp</p>
             <p>June 2023 - Oct 2023</p>
@@ -146,7 +166,7 @@
             </p>
             <p>Skills: HTML · CSS · JavaScript · Python · MySQL</p>
           </div>
-          <div class="job">
+          <div class="edu">
             <h3>Education</h3>
             <p>Westminster City college, London</p>
             <p>Sep 2002 - Apr 2006</p>
@@ -160,6 +180,12 @@
               proficiency in key areas.
             </p>
           </div>
+          <ul>
+            <h3>My Contact Details</h3>
+            <li>Phone Number: 07476527594</li>
+            <li>Email: afs405@gmail.com</li>
+            <li>Linkedin: linkedin.com/in/ahmad-saqib-31083916a</li>
+          </ul>
         </section>
       </section>
       <aside class="aside"></aside>

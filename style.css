@@ -92,6 +92,7 @@ section .section {
   font-family: "Roboto", sans-serif;
   font-family: "Titillium Web", sans-serif;
   justify-content: center;
+  margin: 100px;
 }
 aside {
   background-color: #c6f1ff;
@@ -124,11 +125,33 @@ main #contactInfo textarea {
 
   margin-bottom: 10px;
 }
+.projects {
+  background-color: #c6f1ff; /* Your desired background color */
+  padding: 20px; /* Add padding for spacing */
+  border: 2px solid #000; /* Border with your desired color */
+  border-radius: 10px; /* Optional: Add rounded corners for style */
+}
 
+#selfExplain {
+  background-color: #303ac5; /* Your desired background color */
+  padding: 20px; /* Add padding for spacing */
+  border: 2px solid #fff; /* Border with your desired color */
+  border-radius: 10px; /* Optional: Add rounded corners for style */
+}
+
+#contactInfo {
+  background-color: #00cc66; /* Your desired background color */
+  padding: 20px; /* Add padding for spacing */
+  border: 2px solid #fff; /* Border with your desired color */
+  border-radius: 10px; /* Optional: Add rounded corners for style */
+}
+#selfExplain #mainText {
+  background-image: url(https://images.pexels.com/photos/1252890/pexels-photo-1252890.jpeg?auto=compress&cs=tinysrgb&w=300);
+}
 .content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 150px 5000px 150px;
+  grid-template-rows: 150px 3700px 150px;
   grid-template-areas:
     "header header header header"
     "main main main section"
@@ -166,16 +189,21 @@ div footer {
 .job {
   margin-bottom: 30px;
   padding: 20px;
+  border: 2px solid #000; /* Add a border with your desired color */
+  border-radius: 10px; /* Optional: Add rounded corners for style */
+  background-color: #f8f8f8; /* Add a background color to distinguish each job */
 }
 
 .job h3 {
   font-size: 24px;
   margin-bottom: 5px;
+  color: #333; /* Change the font color for job titles */
 }
 
 .job p {
   margin: 5px 0;
   font-size: 16px;
+  color: #666; /* Change the font color for job descriptions */
 }
 
 .job p.description {
@@ -184,4 +212,16 @@ div footer {
 
 .job p.skills {
   font-weight: bold;
+  color: #000; /* Change the font color for skills */
+}
+.toDo,
+a {
+  text-decoration: none;
+  color: #7b7b7b;
+  background-image: url(https://images.pexels.com/photos/39561/solar-flare-sun-eruption-energy-39561.jpeg?auto=compress&cs=tinysrgb&w=300);
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-size: cover; /* Fit the background image to the element's size */
+  width: 300px; /* Set a fixed width for the anchor element */
+  height: 50px; /* Set a fixed height for the anchor element */
+  display: inline-block; /* Ensure the element takes up space inline */
 }

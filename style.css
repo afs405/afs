@@ -101,7 +101,7 @@ main #contactInfo {
   flex-direction: column;
   align-items: flex-start;
   color: #0b0b0b;
-  width: 500px;
+  width: 565px;
   margin: 0 auto;
   font-family: "Abril Fatface", cursive;
   font-family: "Noto Sans Display", sans-serif;
@@ -124,18 +124,6 @@ main #contactInfo textarea {
   margin-bottom: 10px;
 }
 
-.projects {
-  background-color: #c6f1ff;
-  padding: 20px;
-  border: 2px solid #000;
-  border-radius: 10px;
-}
-
-.projects h4,
-.projects p {
-  color: black;
-}
-
 .main #selfExplain {
   background-color: #303ac5;
   padding: 20px;
@@ -145,6 +133,7 @@ main #contactInfo textarea {
 }
 #contactInfo {
   background-color: #303ac5;
+
   padding: 70px;
   color: #fff;
   border: 2px solid #fff;
@@ -226,26 +215,6 @@ div footer {
 }
 .job ul {
   color: #ededed;
-}
-.toDo,
-a {
-  text-decoration: none;
-  color: #ededed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 300px;
-  height: 50px;
-  display: inline-block;
-}
-
-main #todo {
-  background-image: url(https://images.pexels.com/photos/3299/postit-scrabble-to-do.jpg?auto=compress&cs=tinysrgb&w=300);
-  width: 300px;
-}
-
-main #filmFlex {
-  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/9db4a880-3034-4e98-bdea-5d983e86bf52/168f9b81-d1f0-4116-b49f-875ea463fe3e/GB-en-20230925-popsignuptwoweeks-perspective_alpha_website_small.jpg);
-  width: 300px;
 }
 
 .work-experience .job {
@@ -330,4 +299,80 @@ main #filmFlex {
 
 .contact-details a:hover {
   text-decoration: underline;
+}
+/* CSS Styles */
+.projects {
+  background-color: #c6f1ff;
+  background-image: url(https://images.pexels.com/photos/6437443/pexels-photo-6437443.jpeg?auto=compress&cs=tinysrgb&w=300);
+  background-repeat: repeat;
+  padding: 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.projects h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #303ac5;
+}
+
+.project {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  background-color: #023e8a;
+}
+.projects h3 {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+}
+.project h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #ededed;
+}
+
+.project p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #ededed;
+}
+
+.project ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #ededed;
+}
+
+.project ul li {
+  font-size: 16px;
+  color: #ededed;
+}
+
+.project-link a {
+  text-decoration: none;
+  color: #ededed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 50px;
+  display: inline-block;
+}
+
+.project-link#todo a {
+  background-image: url(https://images.pexels.com/photos/3299/postit-scrabble-to-do.jpg?auto=compress&cs=tinysrgb&w=300);
+  width: 300px;
+}
+
+.project-link#filmFlex a {
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/9db4a880-3034-4e98-bdea-5d983e86bf52/168f9b81-d1f0-4116-b49f-875ea463fe3e/GB-en-20230925-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+  width: 300px;
 }

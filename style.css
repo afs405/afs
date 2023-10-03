@@ -1,35 +1,46 @@
+/* Import Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans+Display:wght@500&family=PT+Serif&family=Poppins&family=Red+Hat+Display:wght@300&family=Roboto:wght@500&family=Titillium+Web&display=swap");
+
+/* Global Styles */
+body {
+  margin: 0;
+  background-color: #4c35de;
+  color: #000;
+  font-family: "Abril Fatface", cursive, "Noto Sans Display", sans-serif,
+    "Poppins", sans-serif, "PT Serif", serif, "Red Hat Display", sans-serif,
+    "Roboto", sans-serif, "Titillium Web", sans-serif;
+}
 
 h1,
 name {
   text-align: center;
   color: #caf0f8;
   font-family: "Abril Fatface", cursive;
-  font-family: "Noto Sans Display", sans-serif;
-  font-family: "Poppins", sans-serif;
-  font-family: "PT Serif", serif;
-  font-family: "Red Hat Display", sans-serif;
-  font-family: "Roboto", sans-serif;
-  font-family: "Titillium Web", sans-serif;
 }
 
-h3 {
+h3,
+main h4 {
   text-align: center;
+  color: #ffffff;
 }
 
-body {
-  margin: 0px;
-  background-color: #4c35de;
-  color: #000000;
-  font-family: "Abril Fatface", cursive;
-  font-family: "Noto Sans Display", sans-serif;
-  font-family: "Poppins", sans-serif;
-  font-family: "PT Serif", serif;
-  font-family: "Red Hat Display", sans-serif;
-  font-family: "Roboto", sans-serif;
-  font-family: "Titillium Web", sans-serif;
+/* Header Styles */
+header {
+  background-image: url(https://images.pexels.com/photos/5046935/pexels-photo-5046935.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
+/* Main Content Styles */
+main p,
+h4 {
+  text-align: center;
+  padding: 5px 0;
+  margin: 5px 0;
+  color: #ffffff;
+}
+
+/* Animation */
 #name {
   animation-name: animationOne;
   animation-duration: 5s;
@@ -46,56 +57,24 @@ body {
   }
 }
 
-header {
-  background-image: url(https://images.pexels.com/photos/5046935/pexels-photo-5046935.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-family: "Abril Fatface", cursive;
-  font-family: "Noto Sans Display", sans-serif;
-  font-family: "Poppins", sans-serif;
-  font-family: "PT Serif", serif;
-  font-family: "Red Hat Display", sans-serif;
-  font-family: "Roboto", sans-serif;
-  font-family: "Titillium Web", sans-serif;
-}
-
-main p,
-h4 {
-  text-align: center;
-  color: #ffffff;
-  font-family: "Abril Fatface", cursive;
-  font-family: "Noto Sans Display", sans-serif;
-  font-family: "Poppins", sans-serif;
-  font-family: "PT Serif", serif;
-  font-family: "Red Hat Display", sans-serif;
-  font-family: "Roboto", sans-serif;
-  font-family: "Titillium Web", sans-serif;
-  padding: 5px 0;
-  margin: 5px 0;
-}
-
-main h4 {
-  color: #ffffff;
-}
-
+/* Section Styles */
 section .section a {
-  color: #000000;
+  color: #000;
   background-color: #c6f1ff;
-  font-family: "Abril Fatface", cursive;
-  font-family: "Noto Sans Display", sans-serif;
-  font-family: "Poppins", sans-serif;
-  font-family: "PT Serif", serif;
-  font-family: "Red Hat Display", sans-serif;
-  font-family: "Roboto", sans-serif;
-  font-family: "Titillium Web", sans-serif;
   justify-content: center;
   margin: 100px;
 }
 
+.section a:hover {
+  color: #dc0c0c;
+}
+
+/* Aside Styles */
 aside {
   background-color: #c6f1ff;
 }
 
+/* Contact Info Styles */
 main #contactInfo {
   display: flex;
   flex-direction: column;
@@ -103,18 +82,15 @@ main #contactInfo {
   color: #0b0b0b;
   width: 660px;
   margin: 0 auto;
-  font-family: "Abril Fatface", cursive;
-  font-family: "Noto Sans Display", sans-serif;
-  font-family: "Poppins", sans-serif;
-  font-family: "PT Serif", serif;
-  font-family: "Red Hat Display", sans-serif;
-  font-family: "Roboto", sans-serif;
-  font-family: "Titillium Web", sans-serif;
+  padding: 70px;
+  background-color: #303ac5;
+  border: 2px solid #fff;
+  border-radius: 10px;
 }
 
 main #contactInfo label {
   margin-bottom: 5px;
-  color: #000000;
+  color: #000;
 }
 
 main #contactInfo input,
@@ -124,6 +100,7 @@ main #contactInfo textarea {
   margin-bottom: 10px;
 }
 
+/* Self Explanation Styles */
 .main #selfExplain {
   background-color: #303ac5;
   padding: 20px;
@@ -131,19 +108,12 @@ main #contactInfo textarea {
   color: #fff;
   border-radius: 10px;
 }
-#contactInfo {
-  background-color: #303ac5;
-
-  padding: 70px;
-  color: #fff;
-  border: 2px solid #fff;
-  border-radius: 10px;
-}
 
 #selfExplain #mainText {
   background-image: url(https://images.pexels.com/photos/1252890/pexels-photo-1252890.jpeg?auto=compress&cs=tinysrgb&w=300);
 }
 
+/* Grid Layout Styles */
 .content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -177,6 +147,7 @@ div footer {
   background-color: #0033a0;
 }
 
+/* Work Experience Styles */
 .work-experience {
   padding: 5px;
 }
@@ -209,6 +180,7 @@ div footer {
   font-weight: bold;
   color: #000;
 }
+
 .job ul {
   color: #ededed;
 }
@@ -225,14 +197,7 @@ div footer {
   max-width: 100%;
 }
 
-.section a {
-  color: #000;
-}
-
-.section a:hover {
-  color: #dc0c0c;
-}
-
+/* Education Styles */
 .edu {
   margin-bottom: 20px;
   justify-self: center;
@@ -263,13 +228,7 @@ div footer {
   color: #333;
 }
 
-.section h2 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #303ac5;
-}
-
+/* Contact Details Styles */
 .contact-details {
   list-style-type: none;
   margin: 0;
@@ -297,7 +256,8 @@ div footer {
 .contact-details a:hover {
   text-decoration: underline;
 }
-/* CSS Styles */
+
+/* Project Styles */
 .projects {
   background-color: #c6f1ff;
   background-image: url(https://images.pexels.com/photos/6437443/pexels-photo-6437443.jpeg?auto=compress&cs=tinysrgb&w=300);
@@ -321,15 +281,8 @@ div footer {
   border-radius: 10px;
   background-color: #023e8a;
 }
-.projects h3 {
-  color: #000;
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #ffffff;
-  text-align: center;
-  padding: 10px 0;
-}
+
+.projects h3,
 .project h3 {
   font-size: 20px;
   font-weight: bold;
@@ -354,6 +307,7 @@ div footer {
   color: #ededed;
 }
 
+/* Project Link Styles */
 .project-link a {
   text-decoration: none;
   color: #ededed;
@@ -374,19 +328,3 @@ div footer {
   background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/9db4a880-3034-4e98-bdea-5d983e86bf52/168f9b81-d1f0-4116-b49f-875ea463fe3e/GB-en-20230925-popsignuptwoweeks-perspective_alpha_website_small.jpg);
   width: 300px;
 }
-/* .section h3 {
-  font-size: 18px;
-  font-weight: bold;
-
-  color: #303ac5;
-}
-.babylon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-section h3,
-section p {
-  margin: 0;
-} */

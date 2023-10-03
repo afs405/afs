@@ -77,10 +77,9 @@ aside {
 /* Contact Info Styles */
 main #contactInfo {
   display: flex;
-  flex-direction: column;
   align-items: flex-start;
   color: #0b0b0b;
-  width: 1080px;
+  width: auto;
   margin: 0 auto;
   padding: 70px;
   background-color: #303ac5;
@@ -332,4 +331,38 @@ h4 {
 .project-link#filmFlex a {
   background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/9db4a880-3034-4e98-bdea-5d983e86bf52/168f9b81-d1f0-4116-b49f-875ea463fe3e/GB-en-20230925-popsignuptwoweeks-perspective_alpha_website_small.jpg);
   width: 300px;
+}
+@media (max-width: 600px) {
+  .content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    grid-template-areas:
+      "header"
+      "main"
+      "main"
+      "main"
+      "section "
+      "section "
+      "section "
+      "footer ";
+  }
+  header {
+    grid-area: header;
+  }
+
+  main {
+    grid-area: main;
+  }
+
+  section {
+    grid-area: section;
+  }
+
+  footer {
+    grid-area: footer;
+  }
+  main #contactInfo {
+    width: 90%;
+  }
 }

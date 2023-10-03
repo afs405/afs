@@ -101,7 +101,7 @@ main #contactInfo {
   flex-direction: column;
   align-items: flex-start;
   color: #0b0b0b;
-  width: 500px;
+  width: 660px;
   margin: 0 auto;
   font-family: "Abril Fatface", cursive;
   font-family: "Noto Sans Display", sans-serif;
@@ -147,7 +147,7 @@ main #contactInfo textarea {
 .content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 150px 3800px 50px;
+  grid-template-rows: 150px 3800px 150px;
   grid-template-areas:
     "header header header header"
     "main main main section"

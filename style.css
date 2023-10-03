@@ -80,32 +80,36 @@ main #contactInfo {
   flex-direction: column;
   align-items: flex-start;
   color: #0b0b0b;
-  width: 660px;
+  width: 915px;
   margin: 0 auto;
   padding: 70px;
   background-color: #303ac5;
-  border: 2px solid #fff;
+  border: 2px solid #ffffff;
   border-radius: 10px;
+  font-size: 20px;
 }
 
 main #contactInfo label {
   margin-bottom: 5px;
   color: #000;
+  font-size: 20px;
 }
 
 main #contactInfo input,
 main #contactInfo textarea {
   width: 90%;
   padding: 5px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
 /* Self Explanation Styles */
 .main #selfExplain {
-  background-color: #303ac5;
+  background-color: #023e8a;
   padding: 20px;
+  font-size: 20px;
   border: 2px solid #fff;
-  color: #fff;
+  color: #ffffff;
   border-radius: 10px;
 }
 
@@ -149,6 +153,7 @@ div footer {
 
 /* Work Experience Styles */
 .work-experience {
+  font-size: 20px;
   padding: 5px;
 }
 
@@ -161,15 +166,15 @@ div footer {
 }
 
 .job h3 {
-  font-size: 24px;
+  font-size: 30px;
   margin-bottom: 5px;
-  color: #ededed;
+  color: #ffffff;
 }
 
 .job p {
   margin: 5px 0;
   font-size: 16px;
-  color: #ededed;
+  color: #ffffff;
 }
 
 .job p.description {
@@ -182,7 +187,7 @@ div footer {
 }
 
 .job ul {
-  color: #ededed;
+  color: #ffffff;
 }
 
 .work-experience .job {
@@ -199,17 +204,18 @@ div footer {
 
 /* Education Styles */
 .edu {
+  font-size: 30px;
   margin-bottom: 20px;
   justify-self: center;
 }
 
 .edu h3 {
-  font-size: 20px;
+  font-size: 30px;
   color: #303ac5;
 }
 
 .edu p {
-  font-size: 16px;
+  font-size: 20px;
   margin: 0;
   color: #555;
 }
@@ -219,12 +225,13 @@ div footer {
 }
 
 .edu ul {
+  font-size: 20px;
   list-style-type: disc;
   margin-left: 20px;
 }
 
 .edu ul li {
-  font-size: 16px;
+  font-size: 20px;
   color: #333;
 }
 
@@ -253,12 +260,9 @@ div footer {
   text-decoration: none;
 }
 
-.contact-details a:hover {
-  text-decoration: underline;
-}
-
 /* Project Styles */
 .projects {
+  font-size: 20px;
   background-color: #c6f1ff;
   background-image: url(https://images.pexels.com/photos/6437443/pexels-photo-6437443.jpeg?auto=compress&cs=tinysrgb&w=300);
   background-repeat: repeat;
@@ -267,8 +271,9 @@ div footer {
   border-radius: 10px;
 }
 
-.projects h2 {
-  font-size: 24px;
+.projects h2,
+h4 {
+  font-size: 30px;
   font-weight: bold;
   margin-bottom: 10px;
   color: #303ac5;
@@ -284,33 +289,33 @@ div footer {
 
 .projects h3,
 .project h3 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   margin-bottom: 5px;
-  color: #ededed;
+  color: #ffffff;
 }
 
 .project p {
   margin: 5px 0;
   font-size: 16px;
-  color: #ededed;
+  color: #ffffff;
 }
 
 .project ul {
   list-style-type: disc;
   margin-left: 20px;
-  color: #ededed;
+  color: #ffffff;
 }
 
 .project ul li {
   font-size: 16px;
-  color: #ededed;
+  color: #ffffff;
 }
 
 /* Project Link Styles */
 .project-link a {
   text-decoration: none;
-  color: #ededed;
+  color: #ffffff;
   border: 2px solid white;
   background-repeat: no-repeat;
   background-size: cover;

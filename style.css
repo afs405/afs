@@ -101,7 +101,7 @@ main #contactInfo {
   flex-direction: column;
   align-items: flex-start;
   color: #0b0b0b;
-  width: 565px;
+  width: 500px;
   margin: 0 auto;
   font-family: "Abril Fatface", cursive;
   font-family: "Noto Sans Display", sans-serif;
@@ -147,11 +147,11 @@ main #contactInfo textarea {
 .content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 150px 3900px 150px;
+  grid-template-rows: 150px 3800px 50px;
   grid-template-areas:
     "header header header header"
     "main main main section"
-    "main main main section"
+    "main main main aside"
     "footer footer footer footer ";
   background-color: #c6f1ff;
 }
@@ -235,6 +235,7 @@ div footer {
 
 .edu {
   margin-bottom: 20px;
+  justify-self: center;
 }
 
 .edu h3 {
@@ -356,6 +357,7 @@ div footer {
 .project-link a {
   text-decoration: none;
   color: #ededed;
+  border: 2px solid white;
   background-repeat: no-repeat;
   background-size: cover;
   width: 300px;
@@ -372,7 +374,7 @@ div footer {
   background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/9db4a880-3034-4e98-bdea-5d983e86bf52/168f9b81-d1f0-4116-b49f-875ea463fe3e/GB-en-20230925-popsignuptwoweeks-perspective_alpha_website_small.jpg);
   width: 300px;
 }
-.section h3 {
+/* .section h3 {
   font-size: 18px;
   font-weight: bold;
 
@@ -387,4 +389,4 @@ div footer {
 section h3,
 section p {
   margin: 0;
-}
+} */

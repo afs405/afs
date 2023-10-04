@@ -81,7 +81,7 @@ main #contactInfo {
   color: #0b0b0b;
   width: auto;
   margin: 0 auto;
-  padding: 70px;
+  padding: 100px;
   background-color: #303ac5;
   border: 2px solid #ffffff;
   border-radius: 10px;
@@ -120,7 +120,7 @@ main #contactInfo textarea {
 .content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 150px 3800px 150px;
+  grid-template-rows: 150px 4000px 150px;
   grid-template-areas:
     "header header header header"
     "main main main section"
@@ -335,13 +335,12 @@ h4 {
 @media (max-width: 600px) {
   .content {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-
+    grid-template-columns: repeat(1fr);
     grid-template-areas:
-      "header"
-      "main"
-      "main"
-      "main"
+      "header "
+      "main "
+      "main "
+      "main "
       "section "
       "section "
       "section "
@@ -364,5 +363,8 @@ h4 {
   }
   main #contactInfo {
     width: 90%;
+  }
+  body {
+    background-color: #c6f1ff;
   }
 }

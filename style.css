@@ -78,7 +78,7 @@ aside {
 main #contactInfo {
   display: flex;
   align-items: flex-start;
-  color: #0b0b0b;
+  color: #fffefe;
   width: auto;
   margin: 0 auto;
   padding: 100px;
@@ -90,7 +90,7 @@ main #contactInfo {
 
 main #contactInfo label {
   margin-bottom: 5px;
-  color: #000;
+  color: #ffffff;
   font-size: 20px;
 }
 

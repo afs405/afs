@@ -120,7 +120,7 @@ main #contactInfo textarea {
 .content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 150px 4500px 150px;
+  grid-template-rows: 150px 9500px 150px;
   grid-template-areas:
     "header header header header"
     "main main main section"
@@ -288,7 +288,7 @@ h4 {
 
 .projects h3,
 .project h3 {
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
   margin-bottom: 5px;
   color: #ffffff;
@@ -340,6 +340,11 @@ h4 {
   display: flex;
   justify-content: center;
 }
+.project-link img {
+  width: 1000px;
+  height: 500px;
+}
+
 @media (max-width: 600px) {
   .content {
     display: grid;

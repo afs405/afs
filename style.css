@@ -120,7 +120,7 @@ main #contactInfo textarea {
 .content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 150px 4000px 150px;
+  grid-template-rows: 150px 4500px 150px;
   grid-template-areas:
     "header header header header"
     "main main main section"
@@ -216,7 +216,7 @@ div footer {
 .edu p {
   font-size: 20px;
   margin: 0;
-  color: #555;
+  color: #000000;
 }
 
 .edu p:last-child {
@@ -231,7 +231,7 @@ div footer {
 
 .edu ul li {
   font-size: 20px;
-  color: #333;
+  color: #000000;
 }
 
 /* Contact Details Styles */
@@ -264,7 +264,7 @@ div footer {
   font-size: 20px;
   background-color: #c6f1ff;
   background-image: url(https://images.pexels.com/photos/6437443/pexels-photo-6437443.jpeg?auto=compress&cs=tinysrgb&w=300);
-  background-repeat: repeat;
+  background-repeat: inherit;
   padding: 20px;
   border: 2px solid #000;
   border-radius: 10px;
@@ -331,6 +331,14 @@ h4 {
 .project-link#filmFlex a {
   background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/9db4a880-3034-4e98-bdea-5d983e86bf52/168f9b81-d1f0-4116-b49f-875ea463fe3e/GB-en-20230925-popsignuptwoweeks-perspective_alpha_website_small.jpg);
   width: 300px;
+}
+.project-link#lottery a {
+  background-image: url(https://media.istockphoto.com/id/469044291/photo/lottery-balls.jpg?b=1&s=612x612&w=0&k=20&c=g_x8DRjd4jgB2n-a4zl7FfYALqjc8ZblJfMFeTskmQA=);
+  width: 300px;
+}
+.project-link#babylon {
+  display: flex;
+  justify-content: center;
 }
 @media (max-width: 600px) {
   .content {

@@ -1,3 +1,8 @@
+import emailjs from "@emailjs/browser";
+fName = document.getElementById("fName");
+email = document.getElementById("email");
+message = document.getElementById("message");
+
 emailjs.init("KRXzwPpKPGq8Y13bW");
 
 function sendEmail() {

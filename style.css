@@ -336,6 +336,10 @@ h4 {
   background-image: url(https://media.istockphoto.com/id/469044291/photo/lottery-balls.jpg?b=1&s=612x612&w=0&k=20&c=g_x8DRjd4jgB2n-a4zl7FfYALqjc8ZblJfMFeTskmQA=);
   width: 300px;
 }
+.project-link#pizza a {
+  background-image: url(https://images.pexels.com/photos/3581878/pexels-photo-3581878.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  width: 300px;
+}
 .project-link#babylon {
   display: flex;
   justify-content: center;

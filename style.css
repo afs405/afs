@@ -14,7 +14,7 @@ body {
 h1,
 name {
   text-align: center;
-  color: #CCCCCC;
+  color: #E0FFFF;
 
   font-family: "Abril Fatface", cursive;
 }
@@ -22,7 +22,7 @@ name {
 h3,
 main h4 {
   text-align: center;
-  color: #CCCCCC;
+  color: #E0FFFF;
 }
 
 /* Header Styles */
@@ -38,7 +38,7 @@ h4 {
   text-align: center;
   padding: 5px 0;
   margin: 5px 0;
-  color: #CCCCCC;
+  color: #E0FFFF;
 }
 
 /* Animation */
@@ -79,19 +79,19 @@ aside {
 main #contactInfo {
   display: flex;
   align-items: flex-start;
-  color: #CCCCCC;
+  color: #E0FFFF;
   width: auto;
   margin: 0 auto;
   padding: 100px;
   background-color: #303ac5;
-  color: #CCCCCC;
+  color: #E0FFFF;
   border-radius: 10px;
   font-size: 20px;
 }
 
 main #contactInfo label {
   margin-bottom: 5px;
-  color: #CCCCCC;
+  color: #E0FFFF;
   font-size: 20px;
 }
 
@@ -109,7 +109,7 @@ main #contactInfo textarea {
   padding: 20px;
   font-size: 20px;
   border: 2px solid #fff;
-  color: #CCCCCC;
+  color: #E0FFFF;
   border-radius: 10px;
 }
 
@@ -121,7 +121,7 @@ main #contactInfo textarea {
 .content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 150px 9500px 150px;
+  grid-template-rows: 150px 10300px 150px;
   grid-template-areas:
     "header header header header"
     "main main main section"
@@ -168,7 +168,7 @@ div footer {
 .job h3 {
   font-size: 30px;
   margin-bottom: 5px;
-  color: #CCCCCC;
+  color: #E0FFFF;
 }
 
 .job p {
@@ -187,7 +187,7 @@ div footer {
 }
 
 .job ul {
-  color: #CCCCCC;
+  color: #E0FFFF;
 }
 
 .work-experience .job {
@@ -292,30 +292,30 @@ h4 {
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 5px;
-  color: #CCCCCC;
+  color: #E0FFFF;
 }
 
 .project p {
   margin: 5px 0;
   font-size: 16px;
-  color: #CCCCCC;
+  color: #E0FFFF;
 }
 
 .project ul {
   list-style-type: disc;
   margin-left: 20px;
-  color: #CCCCCC;
+  color: #E0FFFF;
 }
 
 .project ul li {
   font-size: 16px;
-  color: #CCCCCC;
+  color: #E0FFFF;
 }
 
 /* Project Link Styles */
 .project-link a {
   text-decoration: none;
-  color: #CCCCCC;
+  color: #E0FFFF;
   border: 2px solid white;
   background-repeat: no-repeat;
   background-size: cover;
